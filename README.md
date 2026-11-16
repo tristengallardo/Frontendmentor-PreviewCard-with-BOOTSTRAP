@@ -4,7 +4,7 @@
 
 This project just takes our previous exercise/lab and allows use to refactor our components using Bootstrap.
 
-
+<img src="./Screenshot 2026-11-15 220619.png">
 ## Reflection Questions
 
 ### 1. What challenges did you face when refactoring your code to use Bootstrap?
