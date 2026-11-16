@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 
   <title>Frontend Mentor | Blog preview card</title>
@@ -12,26 +14,28 @@
 
 </head>
 <body>
-  <div class="box">
-    <img src="./assets/images/illustration-article.svg">
-    <div class="learning">
-      <h3>Learning</h3>
+  <div class="d-flex justify-content-center align-items-center min-vh-100">
+    <div class="box">
+    <img src="./assets/images/illustration-article.svg" alt="Illustration image" class="img-fluid-rounded-3 w-100 mb-3">
+    <div class="learning rounded-2 px-3 py-2 mb-3">
+      <h3 class="fs-6 fw-bold m-0">Learning</h3>
     </div>
-  Published 21 Dec 2023
+  <p class="small fw-medium text-dark mb-2">Published 21 Dec 2023</p>
 
-  <h2>HTML & CSS foundations</h2>
+  <h2 class="fs-4 fw-bold mb-3">HTML & CSS foundations</h2>
 
-  <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
+  <p class="text-secondary mb-3">These languages are the backbone of every website, defining structure, content, and presentation.</p>
   
-  <div class="name">
+  <div class="d-flex align-items-center gap-2 mb-3">
     <img src="./assets/images/image-avatar.webp">
-    <h4>Greg Hooper</h4>
+    <h4 class="fs-6 fw-bold m-0">Greg Hooper</h4>
   </div>
   
-  <footer class="attribution">
+  <footer class="small text-secondary">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
     Coded by <a href="#">Tristen Gallardo</a>.
   </footer>
   </div>
+</div>
 </body>
 </html>
